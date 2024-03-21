@@ -7,7 +7,7 @@ public class BasketballNet : MonoBehaviour
 {
     [SerializeField] 
     BasketballHoop _hoop;
-    Basketball _ball;
+    SportsBall _ball;
 
     private void Start()
     {
@@ -17,7 +17,7 @@ public class BasketballNet : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if(other.TryGetComponent<Basketball>(out _ball))
+        if(other.TryGetComponent<SportsBall>(out _ball))
             if (_ball == _hoop.GetCurrentBall)
             {
                 UIManager.Instance.AddBasketballScore();

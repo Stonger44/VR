@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Basketball : MonoBehaviour
+public class SportsBall : MonoBehaviour
 {
     Vector3 _startPOS;
     Rigidbody _rigidBody;

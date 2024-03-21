@@ -4,13 +4,13 @@ using UnityEngine;
 
 public class BasketballHoop : MonoBehaviour
 {
-    Basketball _currentBall;
+    SportsBall _currentBall;
 
-    public Basketball GetCurrentBall => _currentBall;
+    public SportsBall GetCurrentBall => _currentBall;
 
     private void OnTriggerEnter(Collider other)
     {
-        other.TryGetComponent<Basketball>(out _currentBall);
+        other.TryGetComponent<SportsBall>(out _currentBall);
     }
 
 }
