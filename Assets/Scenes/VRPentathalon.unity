@@ -3489,7 +3489,7 @@ BoxCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 443532479}
-  m_Material: {fileID: 13400000, guid: 56bd07b67d090ba4e8f2b43cd46eedb7, type: 2}
+  m_Material: {fileID: 13400000, guid: a56e12548ab10c6479f81fec2b41f1f0, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
@@ -5466,7 +5466,7 @@ PrefabInstance:
     - target: {fileID: 4936620867713803262, guid: 7e87a46f781b2574f81c62ce9f4c5181,
         type: 3}
       propertyPath: m_RootOrder
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 4936620867713803262, guid: 7e87a46f781b2574f81c62ce9f4c5181,
         type: 3}
@@ -15159,7 +15159,7 @@ PrefabInstance:
     - target: {fileID: 8422030742849943132, guid: 3ac202594a7a9364b9f9637bbda9c061,
         type: 3}
       propertyPath: m_RootOrder
-      value: 3
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 8422030742849943132, guid: 3ac202594a7a9364b9f9637bbda9c061,
         type: 3}
@@ -18273,8 +18273,8 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5016665178314319869}
-  - {fileID: 1671605953}
   - {fileID: 556959887}
+  - {fileID: 1671605953}
   - {fileID: 1663957218}
   m_Father: {fileID: 956169036}
   m_RootOrder: 0
