@@ -31,6 +31,7 @@ public class SportsBall : MonoBehaviour
         _rigidBody.velocity = Vector3.zero;
         _rigidBody.angularVelocity = Vector3.zero;
         _rigidBody.position = _startPOS;
+        _rigidBody.rotation = Quaternion.identity;
         _waitingForReturn = false;
        
     }
