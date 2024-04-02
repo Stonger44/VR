@@ -11,7 +11,6 @@ GameObject:
   - component: {fileID: 8422030742849943132}
   - component: {fileID: 8422030742846518908}
   - component: {fileID: 8422030742847517884}
-  - component: {fileID: 8422030742840383932}
   - component: {fileID: 7409320537955320373}
   - component: {fileID: 1065215634864626499}
   - component: {fileID: 5959572159878761012}
@@ -88,27 +87,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!95 &8422030742840383932
-Animator:
-  serializedVersion: 5
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8422030742849776252}
-  m_Enabled: 0
-  m_Avatar: {fileID: 9000000, guid: aa856f3e91cce744a86e18bba1b41683, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_StabilizeFeet: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorStateOnDisable: 0
-  m_WriteDefaultValuesOnDisable: 0
 --- !u!114 &7409320537955320373
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -295,7 +273,7 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  m_ThrowVelocityScale: 1.75
+  m_ThrowVelocityScale: 2
   m_ThrowAngularVelocityScale: 1
   m_ForceGravityOnDetach: 0
   m_RetainTransformParent: 1
