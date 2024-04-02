@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 5549314171909067066}
   - component: {fileID: 5549314171910165498}
   - component: {fileID: 5549314171898494714}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Vollyball Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5549314171907968314}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: 6b0fe29b822e6674ea4004f691aa5775, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0

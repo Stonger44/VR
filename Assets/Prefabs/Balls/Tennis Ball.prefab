@@ -16,7 +16,7 @@ GameObject:
   - component: {fileID: 1065215634864626499}
   - component: {fileID: 5959572159878761012}
   - component: {fileID: 1204528738306562085}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Tennis Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -96,7 +96,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8422030742849776252}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: aa856f3e91cce744a86e18bba1b41683, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0

@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 4936620867714606046}
   - component: {fileID: 4936620867715703070}
   - component: {fileID: 4936620867704212510}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Football Ball
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -92,7 +92,7 @@ Animator:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4936620867713712094}
-  m_Enabled: 1
+  m_Enabled: 0
   m_Avatar: {fileID: 9000000, guid: fee5ec8a9f86cfd4f964a9c1a9c1af8e, type: 3}
   m_Controller: {fileID: 0}
   m_CullingMode: 0
