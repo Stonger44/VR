@@ -14,9 +14,13 @@ public class UIManager : MonoSingleton<UIManager>
         _basketballText.text = _basketballScore.ToString("00");
     }
 
-    public void AddBasketballScore()
+    public void AddBasketballScore(string name)
     {
         _basketballScore++;
+        if (name.Contains("Beach"))
+        {
+            _basketballScore++;
+        }
         _basketballText.text = _basketballScore.ToString("00");
     }
 }
