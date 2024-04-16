@@ -8425,7 +8425,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 738205132}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.024, y: 2.803, z: 2.94}
+  m_LocalPosition: {x: -0.009, y: 2.803, z: 2.962}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -8456,8 +8456,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.529434, y: 0.11393905, z: 0.5960272}
-  m_Center: {x: 0.01775673, y: 0.09538925, z: 0.002215594}
+  m_Size: {x: 0.30745304, y: 0.06152773, z: 0.30005637}
+  m_Center: {x: 0.0007984638, y: 0.06918359, z: -0.0039699227}
 --- !u!54 &738205136
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -15825,8 +15825,8 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.42342368, y: 0.43614316, z: 1}
-  m_Center: {x: 0.012717515, y: -0.22681463, z: -4.131779e-17}
+  m_Size: {x: 0.2708205, y: 0.35752606, z: 0.27240744}
+  m_Center: {x: 0.002692461, y: -0.24145901, z: -0.000006452203}
 --- !u!1001 &1810245603
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16350,6 +16350,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1858610950}
+  - component: {fileID: 1858610951}
   m_Layer: 0
   m_Name: UI_Manager
   m_TagString: Untagged
@@ -16372,6 +16373,19 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1858610951
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1858610948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8a4df5bca2dfea947b1685db34191dee, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _basketballText: {fileID: 1203052921}
 --- !u!1001 &1863496307
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18274,8 +18288,8 @@ Transform:
   m_Children:
   - {fileID: 625383889}
   - {fileID: 1863496308}
-  - {fileID: 564498079}
   - {fileID: 3132200443548346870}
+  - {fileID: 564498079}
   m_Father: {fileID: 956169036}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
