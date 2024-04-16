@@ -16,8 +16,11 @@ public class UIManager : MonoSingleton<UIManager>
 
     public void AddBasketballScore(string name)
     {
-        _basketballScore++;
         if (name.Contains("Beach"))
+        {
+            _basketballScore += 5;
+        }
+        else
         {
             _basketballScore++;
         }
