@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: -152070050790416829}
   m_Layer: 7
   m_Name: Football Ball
-  m_TagString: Untagged
+  m_TagString: FootBall
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0

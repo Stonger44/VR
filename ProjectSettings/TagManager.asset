@@ -5,6 +5,12 @@ TagManager:
   serializedVersion: 2
   tags:
   - Ground
+  - ArenaSportsBoard
+  - BasketBall
+  - BeachBall
+  - TennisBall
+  - FootBall
+  - VolleyBall
   layers:
   - Default
   - TransparentFX

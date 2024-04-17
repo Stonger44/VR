@@ -5,6 +5,9 @@ using TMPro;
 
 public class UIManager : MonoSingleton<UIManager>
 {
+    private const string _arenaSportsBoard = "ArenaSportsBoard";
+    private const string _beachBall = "BeachBall";
+
     [SerializeField]
     TMP_Text _basketballText;
     int _basketballScore = 0;
@@ -14,9 +17,13 @@ public class UIManager : MonoSingleton<UIManager>
         _basketballText.text = _basketballScore.ToString("00");
     }
 
-    public void AddBasketballScore(string name)
+    public void UpdateBasketballScore(Collider other)
     {
-        if (name.Contains("Beach"))
+        if (other.CompareTag(_arenaSportsBoard))
+        {
+            _basketballScore = 0;
+        }
+        else if (other.CompareTag(_beachBall))
         {
             _basketballScore += 5;
         }
@@ -24,6 +31,7 @@ public class UIManager : MonoSingleton<UIManager>
         {
             _basketballScore++;
         }
+
         _basketballText.text = _basketballScore.ToString("00");
     }
 }

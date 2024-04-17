@@ -14505,6 +14505,12 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.01
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!1 &1415333681 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: dae23e77254d3f7469c3af68005b878f,
+    type: 3}
+  m_PrefabInstance: {fileID: 1579148569}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1417497361
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -16165,6 +16171,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ArenaSportsBoard01
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: dae23e77254d3f7469c3af68005b878f, type: 3}
+      propertyPath: m_TagString
+      value: ArenaSportsBoard
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: dae23e77254d3f7469c3af68005b878f, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -16217,6 +16227,19 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1579148569}
   m_PrefabAsset: {fileID: 0}
+--- !u!65 &1579148573
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1415333681}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 3.6331503, y: 2.4357135, z: 0.106082745}
+  m_Center: {x: 0, y: 0.0255965, z: 0.053041372}
 --- !u!1001 &1579221591
 PrefabInstance:
   m_ObjectHideFlags: 0

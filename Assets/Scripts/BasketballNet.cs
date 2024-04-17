@@ -20,7 +20,7 @@ public class BasketballNet : MonoBehaviour
         if(other.TryGetComponent<SportsBall>(out _ball))
             if (_ball == _hoop.GetCurrentBall)
             {
-                UIManager.Instance.AddBasketballScore(_ball.name);
+                UIManager.Instance.UpdateBasketballScore(other);
             }
     }
 }

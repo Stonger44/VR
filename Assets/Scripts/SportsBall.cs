@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class SportsBall : MonoBehaviour
 {
+    private const string _ground = "Ground";
+    private const string _arenaSportsBoard = "ArenaSportsBoard";
+
     Vector3 _startPOS;
     Rigidbody _rigidBody;
     [SerializeField]
@@ -38,8 +41,12 @@ public class SportsBall : MonoBehaviour
 
     private void OnCollisionEnter(Collision other)
     {
-        if (other.transform.CompareTag("Ground") && !_waitingForReturn)
+        if (other.transform.CompareTag(_ground) && !_waitingForReturn)
             Return();
         
+        if (other.transform.CompareTag(_arenaSportsBoard))
+        {
+            UIManager.Instance.UpdateBasketballScore(other.collider);
+        }
     }
 }
