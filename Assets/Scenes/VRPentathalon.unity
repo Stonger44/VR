@@ -3521,6 +3521,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Practice Dummy
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: e1f7d21be6e90b74d89beb1868122ae3, type: 3}
+      propertyPath: m_TagString
+      value: Target
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: e1f7d21be6e90b74d89beb1868122ae3, type: 3}
       propertyPath: m_RootOrder
       value: 4
@@ -5185,6 +5189,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9ce27809860719f43a6fe6b0033454f9, type: 3}
       propertyPath: m_Name
       value: Target Practice (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9ce27809860719f43a6fe6b0033454f9, type: 3}
+      propertyPath: m_TagString
+      value: Target
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9ce27809860719f43a6fe6b0033454f9, type: 3}
       propertyPath: m_RootOrder
@@ -10225,6 +10233,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9ce27809860719f43a6fe6b0033454f9, type: 3}
       propertyPath: m_Name
       value: Target Practice (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9ce27809860719f43a6fe6b0033454f9, type: 3}
+      propertyPath: m_TagString
+      value: Target
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9ce27809860719f43a6fe6b0033454f9, type: 3}
       propertyPath: m_RootOrder
@@ -15368,6 +15380,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Scarecrow 2
       objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 5ab5c3e2ecf6aa24e9bd9f05808bb90d, type: 3}
+      propertyPath: m_TagString
+      value: Target
+      objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 5ab5c3e2ecf6aa24e9bd9f05808bb90d, type: 3}
       propertyPath: m_RootOrder
       value: 3
@@ -18703,6 +18719,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: 9ce27809860719f43a6fe6b0033454f9, type: 3}
       propertyPath: m_Name
       value: Target Practice
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: 9ce27809860719f43a6fe6b0033454f9, type: 3}
+      propertyPath: m_TagString
+      value: Target
       objectReference: {fileID: 0}
     - target: {fileID: 400000, guid: 9ce27809860719f43a6fe6b0033454f9, type: 3}
       propertyPath: m_RootOrder
