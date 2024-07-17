@@ -12,6 +12,7 @@ TagManager:
   - FootBall
   - VolleyBall
   - Target
+  - RocketLauncher
   layers:
   - Default
   - TransparentFX

@@ -4,6 +4,9 @@ using UnityEngine;
 
 public class RocketBehavior : MonoBehaviour
 {
+    private const string _player = "Player";
+    private const string _rocketLauncher = "RocketLauncher";
+    
     [SerializeField] float _speed = 5f;
     [SerializeField] float _timer = 2f;
     [SerializeField] GameObject _explosionPrefab;
@@ -17,7 +20,7 @@ public class RocketBehavior : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        transform.Translate(Vector3.forward * _speed * Time.deltaTime);
+        transform.Translate(Vector3.right * _speed * Time.deltaTime);
     }
 
     IEnumerator DestroyTimer()
@@ -28,9 +31,12 @@ public class RocketBehavior : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        print("test");
-        if (other.CompareTag("Target") || other.CompareTag("Ground"))
+        Debug.Log(other.name);
+
+        if (!other.CompareTag(_rocketLauncher) && !other.CompareTag(_player))
+        {
             DestroyThisWithExplosion();
+        }
     }
 
     void DestroyThisWithExplosion()
