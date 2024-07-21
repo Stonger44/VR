@@ -7,7 +7,7 @@ public class RocketBehavior : MonoBehaviour
     private const string _player = "Player";
     private const string _rocketLauncher = "RocketLauncher";
     
-    [SerializeField] float _speed = 5f;
+    [SerializeField] float _speed = 25f;
     [SerializeField] float _timer = 2f;
     [SerializeField] GameObject _explosionPrefab;
 
