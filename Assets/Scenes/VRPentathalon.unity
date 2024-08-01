@@ -1438,6 +1438,22 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 1282607247}
     m_Modifications:
+    - target: {fileID: 296359032, guid: 9438c296ceb21414eb7c99ade94d8938, type: 3}
+      propertyPath: m_MovementType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 296359032, guid: 9438c296ceb21414eb7c99ade94d8938, type: 3}
+      propertyPath: m_SmoothPosition
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 296359032, guid: 9438c296ceb21414eb7c99ade94d8938, type: 3}
+      propertyPath: m_Colliders.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 296359032, guid: 9438c296ceb21414eb7c99ade94d8938, type: 3}
+      propertyPath: m_Colliders.Array.data[0]
+      value: 
+      objectReference: {fileID: 1170633431}
     - target: {fileID: 83813662494641431, guid: 9438c296ceb21414eb7c99ade94d8938,
         type: 3}
       propertyPath: m_RootOrder
@@ -12172,6 +12188,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!65 &1170633431 stripped
+BoxCollider:
+  m_CorrespondingSourceObject: {fileID: 296359027, guid: 9438c296ceb21414eb7c99ade94d8938,
+    type: 3}
+  m_PrefabInstance: {fileID: 197440160}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1180958572
 PrefabInstance:
   m_ObjectHideFlags: 0
