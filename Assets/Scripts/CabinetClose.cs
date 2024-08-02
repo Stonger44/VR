@@ -9,7 +9,7 @@ public class CabinetClose : MonoBehaviour
     void Start()
     {
         Vector3 temp = transform.localPosition;
-        temp.z = 0.6893f;
+        temp.z = 0.67f;
         transform.localPosition = temp;
         Destroy(this);
     }
