@@ -19536,6 +19536,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 4249002672229112075}
   m_PrefabAsset: {fileID: 0}
+--- !u!95 &1966426600 stripped
+Animator:
+  m_CorrespondingSourceObject: {fileID: 4249002674013699848, guid: 246af812d6e96e843904013ee14a75bf,
+    type: 3}
+  m_PrefabInstance: {fileID: 4249002672229112075}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1982958248
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -22445,6 +22451,36 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081543769086466762, guid: 371a49c4cafa11f489d3a9ce85110002,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081543769086466762, guid: 371a49c4cafa11f489d3a9ce85110002,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1966426600}
+    - target: {fileID: 9081543769086466762, guid: 371a49c4cafa11f489d3a9ce85110002,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SetTrigger
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081543769086466762, guid: 371a49c4cafa11f489d3a9ce85110002,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: UnityEngine.Animator, UnityEngine
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081543769086466762, guid: 371a49c4cafa11f489d3a9ce85110002,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_StringArgument
+      value: DoorOpen
+      objectReference: {fileID: 0}
+    - target: {fileID: 9081543769086466762, guid: 371a49c4cafa11f489d3a9ce85110002,
+        type: 3}
+      propertyPath: m_SelectEntered.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 371a49c4cafa11f489d3a9ce85110002, type: 3}
