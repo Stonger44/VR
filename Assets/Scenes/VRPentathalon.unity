@@ -22446,20 +22446,5 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 7896273354692993918, guid: 371a49c4cafa11f489d3a9ce85110002,
-        type: 3}
-      propertyPath: m_Radius
-      value: 0.25
-      objectReference: {fileID: 0}
-    - target: {fileID: 9081543769086466762, guid: 371a49c4cafa11f489d3a9ce85110002,
-        type: 3}
-      propertyPath: m_InteractableHoverMeshMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: 78610408acb043040a898331dc60edbc, type: 2}
-    - target: {fileID: 9081543769086466762, guid: 371a49c4cafa11f489d3a9ce85110002,
-        type: 3}
-      propertyPath: m_InteractableCantHoverMeshMaterial
-      value: 
-      objectReference: {fileID: 2100000, guid: 6f4432439ebfd5c4a9d9381610450300, type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 371a49c4cafa11f489d3a9ce85110002, type: 3}
