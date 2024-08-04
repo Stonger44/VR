@@ -180,9 +180,9 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_ShowInteractableHoverMeshes: 1
-  m_InteractableHoverMeshMaterial: {fileID: 2100000, guid: 238fe1cd9a5236f41b36be7f420ab88e,
+  m_InteractableHoverMeshMaterial: {fileID: 2100000, guid: 78610408acb043040a898331dc60edbc,
     type: 2}
-  m_InteractableCantHoverMeshMaterial: {fileID: 2100000, guid: dde07c5dccba28443a8f9efe27b69605,
+  m_InteractableCantHoverMeshMaterial: {fileID: 2100000, guid: 6f4432439ebfd5c4a9d9381610450300,
     type: 2}
   m_SocketActive: 1
   m_InteractableHoverScale: 1
