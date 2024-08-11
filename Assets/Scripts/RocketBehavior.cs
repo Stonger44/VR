@@ -5,7 +5,9 @@ using UnityEngine;
 public class RocketBehavior : MonoBehaviour
 {
     private const string _player = "Player";
+    private const string _mainCamera = "MainCamera";
     private const string _rocketLauncher = "RocketLauncher";
+
     
     [SerializeField] float _speed = 25f;
     [SerializeField] float _timer = 2f;
@@ -33,7 +35,7 @@ public class RocketBehavior : MonoBehaviour
     {
         Debug.Log(other.name);
 
-        if (!other.CompareTag(_rocketLauncher) && !other.CompareTag(_player))
+        if (!other.CompareTag(_rocketLauncher) && !other.CompareTag(_player) && !other.CompareTag(_mainCamera))
         {
             DestroyThisWithExplosion();
         }
