@@ -36,7 +36,6 @@ public class SportsBall : MonoBehaviour
         _rigidBody.position = _startPOS;
         _rigidBody.rotation = Quaternion.identity;
         _waitingForReturn = false;
-       
     }
 
     private void OnCollisionEnter(Collision other)
