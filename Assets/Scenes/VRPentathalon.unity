@@ -17465,7 +17465,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1576763609}
-  - component: {fileID: 1576763612}
+  - component: {fileID: 1576763610}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -17489,7 +17489,7 @@ Transform:
   m_Father: {fileID: 2126373542}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1576763612
+--- !u!114 &1576763610
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -17502,7 +17502,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _mainCamera: {fileID: 1426407426}
-  _bodyHeight: 0.5
+  _pocketHeight: 0.5
 --- !u!1001 &1579148569
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18480,7 +18480,7 @@ BoxCollider:
   m_IsTrigger: 1
   m_Enabled: 1
   serializedVersion: 2
-  m_Size: {x: 0.3, y: 0.3, z: 0.3}
+  m_Size: {x: 0.2, y: 0.2, z: 0.2}
   m_Center: {x: 0, y: 0, z: 0}
 --- !u!1 &1748944488
 GameObject:

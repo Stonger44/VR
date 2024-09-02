@@ -5,7 +5,7 @@ using UnityEngine;
 public class PlayerBody : MonoBehaviour
 {
     [SerializeField] private GameObject _mainCamera;
-    [SerializeField] private float _bodyHeight = 0.5f;
+    [SerializeField] private float _pocketHeight = 0.5f;
 
     private Vector3 _cameraPosition;
     private Quaternion _cameraRotation;
@@ -25,7 +25,7 @@ public class PlayerBody : MonoBehaviour
         _cameraPosition = _mainCamera.transform.position;
         _cameraRotation = _mainCamera.transform.rotation;
 
-        this.transform.position = new Vector3(_cameraPosition.x, _cameraPosition.y * _bodyHeight, _cameraPosition.z);
+        this.transform.position = new Vector3(_cameraPosition.x, _cameraPosition.y * _pocketHeight, _cameraPosition.z);
         this.transform.rotation = new Quaternion(transform.rotation.x, _cameraRotation.y, transform.rotation.z, _cameraRotation.w);
     }
 }
