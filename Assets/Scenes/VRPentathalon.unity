@@ -992,11 +992,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: SIG 320
       objectReference: {fileID: 0}
-    - target: {fileID: 8285903871399559364, guid: 762f76255ebed9b4a8c0235ffa1e2675,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 762f76255ebed9b4a8c0235ffa1e2675, type: 3}
 --- !u!4 &155080415 stripped
@@ -4462,7 +4457,7 @@ GameObject:
   - component: {fileID: 458805091}
   m_Layer: 0
   m_Name: GazeInteractor
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10897,7 +10892,7 @@ GameObject:
   - component: {fileID: 903074112}
   m_Layer: 0
   m_Name: HatSocket
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -20852,7 +20847,7 @@ GameObject:
   - component: {fileID: 1978521424}
   m_Layer: 0
   m_Name: MouthSocket
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
