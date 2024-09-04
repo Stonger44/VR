@@ -23975,6 +23975,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Keyhole
       objectReference: {fileID: 0}
+    - target: {fileID: 2212639408530278811, guid: 371a49c4cafa11f489d3a9ce85110002,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 2949723655353711496, guid: 371a49c4cafa11f489d3a9ce85110002,
         type: 3}
       propertyPath: m_RootOrder
