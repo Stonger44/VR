@@ -33,8 +33,6 @@ public class RocketBehavior : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.name);
-
         if (!other.CompareTag(_rocketLauncher) && !other.CompareTag(_player) && !other.CompareTag(_mainCamera))
         {
             DestroyThisWithExplosion();
